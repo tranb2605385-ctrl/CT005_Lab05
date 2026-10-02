@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Trang giới thiệu infographic và video YouTube.">
+  <title>Infographic và video</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #203040;
+      background-color: #f2f6fa;
+    }
+
+    header {
+      padding: 40px 20px;
+      text-align: center;
+      color: white;
+      background: linear-gradient(135deg, #174a7e, #2587b8);
+    }
+
+    main {
+      width: min(900px, 92%);
+      margin: 30px auto;
+    }
+
+    section {
+      margin-bottom: 24px;
+      padding: 24px;
+      background: white;
+      border: 1px solid #d9e3ec;
+      border-radius: 14px;
+    }
+
+    h1, h2 {
+      margin-top: 0;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin-top: 16px;
+      border-radius: 10px;
+    }
+
+    .video {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      margin-top: 16px;
+    }
+
+    .video iframe {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border: 0;
+      border-radius: 10px;
+    }
+
+    footer {
+      padding: 20px;
+      color: #526778;
+      text-align: center;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Infographic và video</h1>
+    <p>Trang giới thiệu nội dung trực quan từ Nhiệm vụ 2.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Infographic</h2>
+      <p>Infographic tóm tắt những nội dung chính của chủ đề.</p>
+      <img
+        src="c:\Users\My PC\Downloads\Lab05_Ex2.1.png (1).png"
+        alt="Infographic tóm tắt nội dung chủ đề">
+    </section>
+
+    <section>
+  <h2>Video YouTube</h2>
+  <p>Xem video minh họa trực tiếp trên trang web.</p>
+
+  <div class="video">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/aSLXc5CeM2M"
+      title="Video YouTube minh họa"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <p>
+    Nếu video không phát được,
+    <a href="https://youtu.be/aSLXc5CeM2M" target="_blank" rel="noopener">
+      mở video trên YouTube
+    </a>.
+  </p>
+</section>
+    <section>
+      <h2>Ghi chú</h2>
+      <p>Mã HTML được tạo với sự hỗ trợ của GitHub Copilot.</p>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 — Hình ảnh và video thuộc quyền sở hữu của các tác giả tương ứng.
+  </footer>
+</body>
+</html>
